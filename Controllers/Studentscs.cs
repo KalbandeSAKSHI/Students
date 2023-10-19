@@ -38,8 +38,11 @@ namespace Students.Controllers
          return student_Details;
             
     }
-    
 
+    public class sakshi : IStudent 
+    {
+     Console.WriteLine("I ma working in cnh");
+    }
 
 
     }
